@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Swagger cache (if used)
+swagger-output.json
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# coverage or build tools (optional)
+coverage/
+dist/
+
+# Optional backup files
+*.bak
+*.zip
+
