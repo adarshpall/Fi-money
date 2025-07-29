@@ -25,6 +25,25 @@ npm run dev
 
 ---
 
+🐳 Docker Instructions
+
+📌 Step 1: Move to backend folder
+
+cd backend
+
+🧱 Step 2: Build the Docker image
+
+docker build -t ims-backend .
+
+🚀 Step 3: Run the container
+
+docker run -p 5000:5000 --env-file .env ims-backend
+
+✅ Application will be running at:
+http://localhost:5000
+
+✅ Swagger docs available at:
+http://localhost:5000/api-docs
 
 ##  API Testing Proof (Screenshots)
 
